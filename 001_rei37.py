@@ -24,4 +24,4 @@ for i in range(360//n):
 # t.update()
 
 t.penup()
-t.save_as_svg('001_rei37.svg')
+t.save_as_svg('001_rei37_output.svg')

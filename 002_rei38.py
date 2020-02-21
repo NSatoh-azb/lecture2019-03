@@ -25,7 +25,7 @@ def spiral(a, d=5, n=0, n_max=300):
 # このまま実行してからコンソールウィンドウで
 # spiral(71, d=1) などを実行せよ．
 
-'''
+
 t.penup()
 t.goto(-400, 0)
 t.pendown()
@@ -42,5 +42,5 @@ t.pendown()
 spiral(71, d=1)
 
 t.penup()
-t.save_as_svg('002_rei38.svg')
-'''
+t.save_as_svg('002_rei38_output.svg')
+
