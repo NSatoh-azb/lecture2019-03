@@ -5,8 +5,10 @@
 @author: NSatoh
 """
 
-import turtle as t
+import turtlesvg as ttl
 import math
+
+t = ttl.Turtle()
 
 t.speed(0)
 t.tracer(0)
@@ -31,3 +33,8 @@ def polygon(n, e=200, m=15):
         polygon(n, next_e, m-1)
     else:
         t.update()
+
+#-----------------------------------
+        
+polygon(5)
+t.save_as_svg('003_rei39_output.svg')
